@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo Trash Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">
+                <span class="emoji">🗑️</span>
+                Tokyo Trash Schedule
+            </h1>
+            <p class="subtitle">Find your trash collection schedule in Tokyo</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="search-container">
+                    <label for="ward-select" class="search-label">Select your ward:</label>
+                    <select id="ward-select" class="ward-select">
+                        <option value="">Choose a ward...</option>
+                        <!-- Options will be populated by JavaScript -->
+                    </select>
+
+                    <div class="search-actions">
+                        <button id="search-btn" class="search-btn" disabled>
+                            <span class="btn-text">Find Schedule</span>
+                            <span class="btn-icon">🔍</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section id="results-section" class="results-section hidden">
+                <div class="ward-info">
+                    <h2 id="ward-name" class="ward-name"></h2>
+                    <p id="ward-description" class="ward-description"></p>
+                </div>
+
+                <div class="schedule-grid">
+                    <div class="schedule-card">
+                        <div class="card-header">
+                            <span class="card-icon">🔥</span>
+                            <h3>Burnable Trash</h3>
+                            <span class="japanese">可燃ごみ</span>
+                        </div>
+                        <div class="card-content">
+                            <p id="burnable-schedule" class="schedule-text"></p>
+                        </div>
+                    </div>
+
+                    <div class="schedule-card">
+                        <div class="card-header">
+                            <span class="card-icon">♻️</span>
+                            <h3>Recyclable</h3>
+                            <span class="japanese">資源ごみ</span>
+                        </div>
+                        <div class="card-content">
+                            <p id="recyclable-schedule" class="schedule-text"></p>
+                        </div>
+                    </div>
+
+                    <div class="schedule-card">
+                        <div class="card-header">
+                            <span class="card-icon">🚫</span>
+                            <h3>Non-burnable</h3>
+                            <span class="japanese">不燃ごみ</span>
+                        </div>
+                        <div class="card-content">
+                            <p id="non-burnable-schedule" class="schedule-text"></p>
+                        </div>
+                    </div>
+
+                    <div class="schedule-card">
+                        <div class="card-header">
+                            <span class="card-icon">📦</span>
+                            <h3>Large Items</h3>
+                            <span class="japanese">粗大ごみ</span>
+                        </div>
+                        <div class="card-content">
+                            <p id="large-items-schedule" class="schedule-text"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tips-section">
+                    <h3 class="tips-title">💡 Trash Sorting Tips</h3>
+                    <div id="sorting-tips" class="tips-content">
+                        <!-- Tips will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Loading State -->
+            <section id="loading-section" class="loading-section hidden">
+                <div class="loading-spinner"></div>
+                <p class="loading-text">Finding your schedule...</p>
+            </section>
+
+            <!-- Error State -->
+            <section id="error-section" class="error-section hidden">
+                <div class="error-content">
+                    <span class="error-icon">⚠️</span>
+                    <h3>Oops! Something went wrong</h3>
+                    <p id="error-message">Please try selecting a different ward.</p>
+                    <button id="retry-btn" class="retry-btn">Try Again</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Helping Tokyo residents dispose of trash responsibly since 2024</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

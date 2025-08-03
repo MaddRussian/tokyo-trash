@@ -1,0 +1,257 @@
+{
+  "wards": [
+    {
+      "id": "shibuya",
+      "name": "Shibuya-ku",
+      "name_japanese": "渋谷区",
+      "description": "Famous for its shopping districts and youth culture, Shibuya has specific trash collection schedules for its dense urban areas.",
+      "schedules": {
+        "burnable": {
+          "days": ["Monday", "Wednesday", "Friday"],
+          "time": "8:00 AM - 9:00 AM",
+          "description": "Kitchen waste, paper, wood, cloth, etc.",
+          "japanese": "生ごみ、紙、木、布など"
+        },
+        "recyclable": {
+          "days": ["Tuesday"],
+          "time": "8:00 AM - 9:00 AM",
+          "description": "Paper, cardboard, cans, bottles, PET bottles",
+          "japanese": "紙、段ボール、缶、びん、ペットボトル"
+        },
+        "non_burnable": {
+          "days": ["Thursday"],
+          "time": "8:00 AM - 9:00 AM",
+          "description": "Plastic, glass, metal, ceramics",
+          "japanese": "プラスチック、ガラス、金属、陶器"
+        },
+        "large_items": {
+          "days": ["First Saturday of month"],
+          "time": "9:00 AM - 12:00 PM",
+          "description": "Furniture, appliances larger than 30cm",
+          "japanese": "家具、30cm以上の電化製品"
+        }
+      },
+      "tips": [
+        {
+          "title": "Burnable Trash",
+          "description": "Make sure to drain all liquids and wrap food waste properly. Use designated bags.",
+          "japanese": "液体を完全に切って、生ごみは適切に包んでください。指定袋を使用してください。"
+        },
+        {
+          "title": "Recyclable Items",
+          "description": "Rinse containers thoroughly and separate by material type. Flatten cardboard boxes.",
+          "japanese": "容器をよく洗って、素材別に分けてください。段ボールは平らにしてください。"
+        },
+        {
+          "title": "Non-burnable Items",
+          "description": "Sharp objects should be wrapped in newspaper and labeled clearly.",
+          "japanese": "危険な物は新聞紙で包んで、はっきりと表示してください。"
+        }
+      ]
+    },
+    {
+      "id": "shinjuku",
+      "name": "Shinjuku-ku",
+      "name_japanese": "新宿区",
+      "description": "Tokyo's major business and entertainment district with varied collection schedules across different areas.",
+      "schedules": {
+        "burnable": {
+          "days": ["Tuesday", "Thursday", "Saturday"],
+          "time": "7:30 AM - 8:30 AM",
+          "description": "Food waste, paper products, wood, textiles",
+          "japanese": "生ごみ、紙製品、木、布製品"
+        },
+        "recyclable": {
+          "days": ["Monday", "Wednesday"],
+          "time": "7:30 AM - 8:30 AM",
+          "description": "Paper, cardboard, metal cans, glass bottles",
+          "japanese": "紙、段ボール、金属缶、ガラスびん"
+        },
+        "non_burnable": {
+          "days": ["Friday"],
+          "time": "7:30 AM - 8:30 AM",
+          "description": "Plastics, ceramics, small electronics",
+          "japanese": "プラスチック、陶器、小型電化製品"
+        },
+        "large_items": {
+          "days": ["Second Saturday of month"],
+          "time": "9:00 AM - 11:00 AM",
+          "description": "Large furniture and appliances",
+          "japanese": "大型家具と電化製品"
+        }
+      },
+      "tips": [
+        {
+          "title": "Business District Rules",
+          "description": "Commercial areas have different collection times. Check with your building management.",
+          "japanese": "商業地域は収集時間が異なります。建物管理に確認してください。"
+        },
+        {
+          "title": "Recycling Centers",
+          "description": "Visit designated recycling centers for electronics and special items.",
+          "japanese": "電化製品や特殊な物は指定のリサイクルセンターをご利用ください。"
+        }
+      ]
+    },
+    {
+      "id": "minato",
+      "name": "Minato-ku",
+      "name_japanese": "港区",
+      "description": "Home to many embassies and international businesses, Minato has bilingual trash information available.",
+      "schedules": {
+        "burnable": {
+          "days": ["Monday", "Wednesday", "Friday"],
+          "time": "8:00 AM - 9:00 AM",
+          "description": "Kitchen waste, paper, wood, cloth",
+          "japanese": "生ごみ、紙、木、布"
+        },
+        "recyclable": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "8:00 AM - 9:00 AM",
+          "description": "Paper, cardboard, cans, bottles, PET bottles",
+          "japanese": "紙、段ボール、缶、びん、ペットボトル"
+        },
+        "non_burnable": {
+          "days": ["Saturday"],
+          "time": "8:00 AM - 9:00 AM",
+          "description": "Plastic, glass, metal, ceramics",
+          "japanese": "プラスチック、ガラス、金属、陶器"
+        },
+        "large_items": {
+          "days": ["Third Saturday of month"],
+          "time": "9:00 AM - 12:00 PM",
+          "description": "Large furniture and appliances",
+          "japanese": "大型家具と電化製品"
+        }
+      },
+      "tips": [
+        {
+          "title": "International Residents",
+          "description": "English language support available. Contact ward office for assistance.",
+          "japanese": "英語サポートがあります。区役所にお問い合わせください。"
+        },
+        {
+          "title": "High-rise Buildings",
+          "description": "Many buildings have centralized collection. Check with your concierge.",
+          "japanese": "多くの建物は集中収集です。コンシェルジュに確認してください。"
+        }
+      ]
+    },
+    {
+      "id": "chiyoda",
+      "name": "Chiyoda-ku",
+      "name_japanese": "千代田区",
+      "description": "Tokyo's political and business center with strict waste management policies for government buildings.",
+      "schedules": {
+        "burnable": {
+          "days": ["Tuesday", "Thursday", "Saturday"],
+          "time": "7:00 AM - 8:00 AM",
+          "description": "Food waste, paper, wood, cloth",
+          "japanese": "生ごみ、紙、木、布"
+        },
+        "recyclable": {
+          "days": ["Monday", "Wednesday", "Friday"],
+          "time": "7:00 AM - 8:00 AM",
+          "description": "Paper, cardboard, cans, bottles",
+          "japanese": "紙、段ボール、缶、びん"
+        },
+        "non_burnable": {
+          "days": ["Sunday"],
+          "time": "7:00 AM - 8:00 AM",
+          "description": "Plastic, glass, metal, ceramics",
+          "japanese": "プラスチック、ガラス、金属、陶器"
+        },
+        "large_items": {
+          "days": ["Fourth Saturday of month"],
+          "time": "9:00 AM - 11:00 AM",
+          "description": "Large furniture and appliances",
+          "japanese": "大型家具と電化製品"
+        }
+      },
+      "tips": [
+        {
+          "title": "Government Buildings",
+          "description": "Special collection schedules apply to government and office buildings.",
+          "japanese": "政府やオフィスビルには特別な収集スケジュールがあります。"
+        },
+        {
+          "title": "Security Considerations",
+          "description": "Some areas have restricted access. Contact ward office for details.",
+          "japanese": "一部地域はアクセス制限があります。詳細は区役所にお問い合わせください。"
+        }
+      ]
+    },
+    {
+      "id": "meguro",
+      "name": "Meguro-ku",
+      "name_japanese": "目黒区",
+      "description": "Residential area known for its cherry blossoms and relaxed atmosphere with family-friendly collection schedules.",
+      "schedules": {
+        "burnable": {
+          "days": ["Monday", "Wednesday", "Friday"],
+          "time": "8:30 AM - 9:30 AM",
+          "description": "Kitchen waste, paper, wood, cloth",
+          "japanese": "生ごみ、紙、木、布"
+        },
+        "recyclable": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "8:30 AM - 9:30 AM",
+          "description": "Paper, cardboard, cans, bottles, PET bottles",
+          "japanese": "紙、段ボール、缶、びん、ペットボトル"
+        },
+        "non_burnable": {
+          "days": ["Saturday"],
+          "time": "8:30 AM - 9:30 AM",
+          "description": "Plastic, glass, metal, ceramics",
+          "japanese": "プラスチック、ガラス、金属、陶器"
+        },
+        "large_items": {
+          "days": ["First Saturday of month"],
+          "time": "9:00 AM - 12:00 PM",
+          "description": "Large furniture and appliances",
+          "japanese": "大型家具と電化製品"
+        }
+      },
+      "tips": [
+        {
+          "title": "Family-friendly Schedule",
+          "description": "Later collection times accommodate families with children.",
+          "japanese": "遅い収集時間は子供がいる家族に配慮しています。"
+        },
+        {
+          "title": "Green Initiatives",
+          "description": "Strong focus on recycling and composting programs.",
+          "japanese": "リサイクルとコンポストプログラムに重点を置いています。"
+        }
+      ]
+    }
+  ],
+  "general_tips": [
+    {
+      "title": "Trash Bags",
+      "description": "Use designated trash bags for your ward. Regular plastic bags are not accepted.",
+      "japanese": "指定のごみ袋を使用してください。普通のビニール袋は受け付けません。"
+    },
+    {
+      "title": "Collection Times",
+      "description": "Put trash out the night before collection day, not on the morning of collection.",
+      "japanese": "収集日の前夜にごみを出してください。収集日の朝ではありません。"
+    },
+    {
+      "title": "Holiday Schedule",
+      "description": "Collection may be delayed on national holidays. Check ward website for updates.",
+      "japanese": "祝日は収集が遅れる場合があります。区のウェブサイトで確認してください。"
+    },
+    {
+      "title": "Special Items",
+      "description": "For batteries, light bulbs, and electronics, use designated collection points.",
+      "japanese": "電池、電球、電化製品は指定の収集場所をご利用ください。"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-01-15",
+    "version": "1.0",
+    "total_wards": 23,
+    "notes": "This data covers the 5 most populated wards. Additional wards can be added as needed."
+  }
+}
